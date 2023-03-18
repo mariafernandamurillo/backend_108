@@ -48,3 +48,30 @@ Dictionaries are:
     Does not allows duplicates 
     Access by Key 
 
+///////////////////////GIT/////////////////
+1. Git is the technology. Is a version control system.
+2. GitHub is just the space.
+
+
+----- New Project ---------
+# initialize the Repo
+git init
+
+# create local snapshot
+git add .
+git commit -m "Somethig"
+
+# setup the remote url
+git remote add origin <URL>
+
+# upload to server
+git push -u origin main
+
+
+----- Subsequent push ------
+git init 
+
+git add .
+git commit -m  "Something"
+
+git push

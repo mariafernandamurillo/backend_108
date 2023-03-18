@@ -27,4 +27,4 @@ age = me["age"]
 print(f"{name} : {age}")
 
 # 2 delete the age key from the dictionary and print the dictionary to confirm 
-del me["age"]
+#del me["age"]
