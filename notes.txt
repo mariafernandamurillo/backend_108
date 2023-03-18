@@ -1,0 +1,50 @@
+# create a virtual env
+python3 -m venv venv
+
+
+
+# activate the venv
+
+win: venv\Scripts\activate
+
+mac: source venv/bin/activate
+
+
+#Install flask 
+
+win: py -m pip install flask
+
+mac: python3 -m pip install flask
+
+# An API 
+a set of functions and procedures allowing the creation of applications that access the features or data of an operating system, application, or other service.
+
+#Collections 
+Type of variables.
+
+--------------
+One of them are Lists.
+A list in pythonis like an array in js.
+    mylis = ["apple", "banana"]
+Lists are:  
+    Ordered.
+    Changable.
+    Allow duplicates.
+    Starts at 0.
+
+--------------
+
+Dictionary 
+
+Starts with {} like a js object literal
+thisdict = {
+    "brand" : "somethin",
+     ...
+}
+
+Dictionaries are:   
+    Orderder 
+    Changable
+    Does not allows duplicates 
+    Access by Key 
+
